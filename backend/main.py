@@ -11,7 +11,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ai-code-dependency-visualizer-ten.vercel.app"],
+    allow_origins=["https://ai-code-dependency-visualizer.onrender.com/analyze"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
