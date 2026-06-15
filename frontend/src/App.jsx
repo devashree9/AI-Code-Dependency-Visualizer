@@ -22,7 +22,7 @@ function App() {
   const analyzeRepo = () => {
     axios
       .post(
-        "https://YOUR-RENDER-URL.onrender.com/analyze",
+        "https://ai-code-dependency-visualizer.onrender.com/analyze",
         {
           repo_url: repoUrl,
         }
