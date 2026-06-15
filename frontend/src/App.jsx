@@ -22,7 +22,7 @@ function App() {
   const analyzeRepo = () => {
     axios
       .post(
-        "http://127.0.0.1:8000/analyze",
+        "https://YOUR-RENDER-URL.onrender.com/analyze",
         {
           repo_url: repoUrl,
         }
